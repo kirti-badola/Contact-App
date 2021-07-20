@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div{
+  min-height: 100vh;
+  background: #060822;
+  display: flex;
+  justify-content: center;
+}
+
+h1, .fa{
+  color:#fff;
+}
+
+.heading{
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.child_div{
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.addItems, .eachItems{
+  display: flex;
+  justify-content: space-around;
+}
+
+.eachItems{
+  width: 85%;
+  background: white;
+  height: 5rem;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.eachItems:hover{
+  background: rgba(85, 85, 226, 0.644);
+  opacity: 900;
+  color:#fff;
+}
+
+.EmailInput{
+  margin-left: 20px;
+}
+
+.fa{
+  font-size: 2rem;
+}
+
+.todo_btn{
+  margin-top: 20px;
+}
+
+.add_btn{
+  margin-left: 20px;
+}
+
+.add_btn, .edit_btn{
+  color:green;
+  cursor:pointer;
+}
+
+
+.delete_btn{
+  margin-left: 10px;
+  color:red;
+  cursor: pointer;
+}
+
+.remove_btn{
+  width: 85%;
+  margin-left: -50px;
+}
+
+
+.submit_btn, .update_btn{
+  margin-left: 20px;
+}
+
+/*Footer*/
+.fixed-bottom p{
+	color:#fff;
 }
